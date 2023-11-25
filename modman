@@ -1,0 +1,7 @@
+src/app/code/core/Mage/Rss/                                     app/code/core/Mage/Rss/
+src/app/design/adminhtml/default/default/layout/rss.xml         app/design/adminhtml/default/default/layout/rss.xml
+src/app/design/frontend/base/default/layout/rss.xml             app/design/frontend/base/default/layout/rss.xml
+src/app/design/frontend/base/default/template/rss/              app/design/frontend/base/default/template/rss/
+src/app/design/frontend/rwd/default/layout/rss.xml              app/design/frontend/rwd/default/layout/rss.xml
+src/app/etc/modules/Mage_Rss.xml                                app/etc/modules/Mage_Rss.xml
+src/app/locale/en_US/Mage_Rss.csv                               app/locale/en_US/Mage_Rss.csv
