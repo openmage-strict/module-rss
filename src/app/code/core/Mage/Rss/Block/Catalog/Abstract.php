@@ -94,6 +94,8 @@ class Mage_Rss_Block_Catalog_Abstract extends Mage_Rss_Block_Abstract
      * @param bool $displayMinimalPrice Display "As low as" etc.
      * @param string $idSuffix Suffix for HTML containers
      * @return string
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function getPriceHtml($product, $displayMinimalPrice = false, $idSuffix = '')
     {

@@ -18,6 +18,8 @@
  *
  * @category   Mage
  * @package    Mage_Rss
+ *
+ * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
  */
 class Mage_Rss_Block_Catalog_Special extends Mage_Rss_Block_Catalog_Abstract
 {
@@ -193,12 +195,12 @@ class Mage_Rss_Block_Catalog_Special extends Mage_Rss_Block_Catalog_Abstract
     /**
      * Function for comparing two items in collection
      *
-     * @param Varien_Object $a
-     * @param Varien_Object $b
+     * @param Varien_Object $objectA
+     * @param Varien_Object $objectB
      * @return int
      */
-    public function sortByStartDate($a, $b)
+    public function sortByStartDate($objectA, $objectB)
     {
-        return $a['start_date'] > $b['start_date'] ? -1 : ($a['start_date'] < $b['start_date'] ? 1 : 0);
+        return $objectA['start_date'] > $objectB['start_date'] ? -1 : ($objectA['start_date'] < $objectB['start_date'] ? 1 : 0);
     }
 }
