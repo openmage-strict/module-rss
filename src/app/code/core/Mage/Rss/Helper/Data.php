@@ -59,6 +59,8 @@ class Mage_Rss_Helper_Data extends Mage_Core_Helper_Abstract
      * Authenticate admin and check ACL
      *
      * @param string $path
+     *
+     * @SuppressWarnings(PHPMD.CyclomaticComplexity)
      */
     public function authAdmin($path)
     {

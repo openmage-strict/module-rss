@@ -63,6 +63,8 @@ class Mage_Rss_Block_List extends Mage_Core_Block_Template
      * @param bool $customerGroup
      * @return $this
      * @throws Mage_Core_Model_Store_Exception
+     *
+     * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
      */
     public function addRssFeed($url, $label, $param = [], $customerGroup = false)
     {
