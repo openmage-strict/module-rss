@@ -18,8 +18,6 @@
  *
  * @category   Mage
  * @package    Mage_Rss
- *
- * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
  */
 class Mage_Rss_Block_Catalog_Special extends Mage_Rss_Block_Catalog_Abstract
 {
@@ -47,6 +45,8 @@ class Mage_Rss_Block_Catalog_Special extends Mage_Rss_Block_Catalog_Abstract
      * @return string
      * @throws Mage_Core_Model_Store_Exception
      * @throws Exception
+     *
+     * @SuppressWarnings(PHPMD.ExcessiveMethodLength)
      */
     protected function _toHtml()
     {
