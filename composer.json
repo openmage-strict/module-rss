@@ -9,6 +9,9 @@
         "openmage-strict/module-catalog-inventory": "^120.2",
         "openmage-strict/module-sales": "^120.2",
         "openmage-strict/module-sales-rule": "^120.2",
-        "openmage-strict/module-wishlist": "^120.2"
+        "openmage-strict/module-wishlist": "^120.2",
+        "zf1s/zend-date": "*",
+        "zf1s/zend-db": "*",
+        "zf1s/zend-feed": "*"
     }
 }
